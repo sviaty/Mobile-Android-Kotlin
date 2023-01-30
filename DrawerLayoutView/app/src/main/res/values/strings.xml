@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DrawerLayoutView</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_fragment_first">Fragment one</string>
+    <string name="menu_fragment_second">Fragment two</string>
+
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+</resources>
