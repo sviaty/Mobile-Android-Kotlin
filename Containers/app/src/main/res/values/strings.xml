@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Containers</string>
+
+    <string name="tab_text_1">Linear layout</string>
+    <string name="tab_text_2">Relative layout</string>
+    <string name="tab_text_3">Constraint layout</string>
+    <string name="tab_text_4">Grid layout</string>
+</resources>

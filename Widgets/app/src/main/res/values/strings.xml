@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Widgets</string>
 
-    <string name="tab_text_1">Edit Text</string>
-    <string name="tab_text_2">Button</string>
+    <string name="tab_text_1">Text Widgets</string>
+    <string name="tab_text_2">Button Widgets</string>
+    <string name="tab_text_3">Progress Widgets</string>
+    <string name="tab_text_4">Media Widgets</string>
+    <string name="tab_text_5">Web View Widgets</string>
+    <string name="tab_text_6">Calendar View Widgets</string>
 </resources>
