@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
             R.string.tab_text_1,
             R.string.tab_text_2,
             R.string.tab_text_3,
-            R.string.tab_text_4
+            R.string.tab_text_4,
+            R.string.tab_text_5
         )
 
         TabLayoutMediator(tabLayout, viewPager2) { tab, position ->

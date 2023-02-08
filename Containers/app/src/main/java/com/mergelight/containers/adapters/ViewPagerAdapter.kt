@@ -3,10 +3,7 @@ package com.mergelight.containers.adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.mergelight.containers.fragments.ConstraintLayoutFragment
-import com.mergelight.containers.fragments.GridLayoutFragment
-import com.mergelight.containers.fragments.LinearLayoutFragment
-import com.mergelight.containers.fragments.RelativeLayoutFragment
+import com.mergelight.containers.fragments.*
 
 class ViewPager2Adapter(activity: FragmentActivity?) : FragmentStateAdapter(activity!!){
 
@@ -14,7 +11,8 @@ class ViewPager2Adapter(activity: FragmentActivity?) : FragmentStateAdapter(acti
         LinearLayoutFragment(),
         RelativeLayoutFragment(),
         ConstraintLayoutFragment(),
-        GridLayoutFragment()
+        GridLayoutFragment(),
+        FrameLayoutFragment()
     )
 
     override fun getItemCount(): Int {
@@ -34,6 +32,9 @@ class ViewPager2Adapter(activity: FragmentActivity?) : FragmentStateAdapter(acti
             }
             3 -> {
                 GridLayoutFragment.newInstance()
+            }
+            4 -> {
+                FrameLayoutFragment.newInstance()
             }
             else -> {
                 LinearLayoutFragment.newInstance()
