@@ -55,8 +55,7 @@
                     android:id="@+id/editTextTextPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPassword"
+                    android:inputType="text"
                     android:hint="EditText Password"/>
             </LinearLayout>
 
@@ -70,7 +69,6 @@
                     android:id="@+id/editTextTextEmailAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:inputType="textEmailAddress"
                     android:hint="EditText Email"/>
             </LinearLayout>
@@ -85,7 +83,6 @@
                     android:id="@+id/editTextPhone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:inputType="phone"
                     android:hint="EditText Phone"/>
             </LinearLayout>
@@ -100,7 +97,6 @@
                     android:id="@+id/editTextTime"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:inputType="time"
                     android:hint="EditText Time"/>
             </LinearLayout>
@@ -115,7 +111,6 @@
                     android:id="@+id/editTextDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:inputType="date"
                     android:hint="EditText Date"/>
             </LinearLayout>
@@ -130,7 +125,6 @@
                     android:id="@+id/editTextNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:inputType="number"
                     android:hint="EditText Number"/>
             </LinearLayout>
@@ -159,7 +153,6 @@
                     android:id="@+id/editTextTextMultiLine"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
                     android:gravity="start|top"
                     android:inputType="textMultiLine"
                     android:hint="EditText MultiLine"/>
