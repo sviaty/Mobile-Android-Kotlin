@@ -60,12 +60,16 @@ class MainActivity : AppCompatActivity() {
         GlobalScope.launch(Dispatchers.Main) {
             try {
                 val responseGetUsers = retrofit.getUserById(60)
-                if(responseGetUsers.isSuccessful && responseGetUsers.body() != null){
+                if (responseGetUsers.isSuccessful && responseGetUsers.body() != null) {
                     val responseBody = responseGetUsers.body()
                     mUser = responseBody?.mData
                     //mTvUserName.text = mUser?.mName
                 } else {
-                    Toast.makeText(this@MainActivity, "Error Occurred: ${responseGetUsers.message()}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@MainActivity,
+                        "Error Occurred: ${responseGetUsers.message()}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             } catch (t: Throwable) {
                 t?.printStackTrace()
